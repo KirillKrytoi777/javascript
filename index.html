@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JavaScript</title>
+</head>
+
+<body class="dark-theme">
+    <div id="root">
+        <div class="game-list">
+            <div class="dice">
+                <button id="buttonDice">
+                    <img src="images/dice.jpg" alt="dice" width="200" height="200" id="imgDiceBtn">
+                    <h3>Dice</h3>
+                </button>
+            </div>
+
+        </div>
+
+        <div class="game-dice" id="gameDice" style="display: none;">
+            <div id="imgDice"></div>
+            <h1 id="h1"></h1>
+            <button id="small">Меньше (x <= 3)</button>
+            <button id="big">Больше (3 < x <=6)</button>
+            <button id="button">Кинуть кость</button>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
